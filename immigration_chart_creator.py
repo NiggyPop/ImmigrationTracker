@@ -17,16 +17,16 @@ def create_chart():
         df_cat = df[df['Category'] == category]
         fig.add_trace(go.Bar(
             x=df_cat["Term Year"],
-            y=df_cat["Trump"],
-            name=f"{category} - Donald Trump",
+            y=df_cat["Previous Term"],
+            name=f"{category} - Previous Term",
             marker_color=color_map[category],
             offsetgroup=category,
             legendgroup=category
         ))
         fig.add_trace(go.Bar(
             x=df_cat["Term Year"],
-            y=df_cat["Biden"],
-            name=f"{category} - Joe Biden",
+            y=df_cat["Current Term"],
+            name=f"{category} - Current Term",
             marker_color=color_map[category],
             offsetgroup=category,
             base=0,
