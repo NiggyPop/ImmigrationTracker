@@ -18,7 +18,7 @@ def create_chart():
         fig.add_trace(go.Bar(
             x=df_cat["Term Year"],
             y=df_cat["Previous Term"],
-            name=f"{category} - Previous Term",
+            name=f"{category} - Donald Trump",
             marker_color=color_map[category],
             offsetgroup=category,
             legendgroup=category
@@ -26,7 +26,7 @@ def create_chart():
         fig.add_trace(go.Bar(
             x=df_cat["Term Year"],
             y=df_cat["Current Term"],
-            name=f"{category} - Current Term",
+            name=f"{category} - Joe Biden",
             marker_color=color_map[category],
             offsetgroup=category,
             base=0,
