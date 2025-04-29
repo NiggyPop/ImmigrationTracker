@@ -40,7 +40,7 @@ for cat in selected_categories:
     fig.add_trace(go.Bar(
         x=df_cat["Term Year"],
         y=df_cat["Donald Trump"],
-        name=f"{cat} - Donald",
+        name=f"{cat} - Trump",
         marker_color=color_map[cat],
         offsetgroup=cat,
         legendgroup=cat
