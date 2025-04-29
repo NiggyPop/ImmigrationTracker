@@ -39,16 +39,16 @@ for cat in selected_categories:
     df_cat = filtered_df[filtered_df["Category"] == cat]
     fig.add_trace(go.Bar(
         x=df_cat["Term Year"],
-        y=df_cat["Previous Term"],
-        name=f"{cat} - Previous",
+        y=df_cat["Donald Trump"],
+        name=f"{cat} - Donald",
         marker_color=color_map[cat],
         offsetgroup=cat,
         legendgroup=cat
     ))
     fig.add_trace(go.Bar(
         x=df_cat["Term Year"],
-        y=df_cat["Current Term"],
-        name=f"{cat} - Current",
+        y=df_cat["Joe Biden"],
+        name=f"{cat} - Biden",
         marker_color=color_map[cat],
         offsetgroup=cat,
         legendgroup=cat,
