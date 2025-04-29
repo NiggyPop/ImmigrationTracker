@@ -1,0 +1,25 @@
+Term Year,Category,Donald Trump,Joe Biden
+Year 1,Encounters,"526,901","1,956,519"
+Year 2,Encounters,"683,178","2,766,582"
+Year 3,Encounters,"1,148,024","3,201,144"
+Year 4,Encounters,"646,822","2,901,142"
+Year 1,TPS Issued,"707,265","813,000"
+Year 2,TPS Issued,"756,800","967,400"
+Year 3,TPS Issued,"834,000","878,500"
+Year 4,TPS Issued,"625,400","818,500"
+Year 1,Visas Issued,"10,400,000",3077152
+Year 2,Visas Issued,9100000,7308568
+Year 3,Visas Issued,9204490,10901303
+Year 4,Visas Issued,"3,800,000","11,500,000"
+Year 1,Citizens Added,707265,814000
+Year 2,Citizens Added,760000,967400
+Year 3,Citizens Added,843593,878500
+Year 4,Citizens Added,625000,900000
+Year 1,Asylum Requested,"15,800","9,130"
+Year 2,Asylum Requested,"24,490","13,170"
+Year 3,Asylum Requested,"26,880","22,300"
+Year 4,Asylum Requested,"16,100",~
+Year 1,Total Deportations,"226,119","59,011"
+Year 2,Total Deportations,"256,085","72,177"
+Year 3,Total Deportations,"267,258","142,580"
+Year 4,Total Deportations,"185,884","270,000"
